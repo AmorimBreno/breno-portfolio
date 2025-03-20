@@ -1,24 +1,21 @@
-import { useTheme } from '../hooks/use-theme'
-export function Home() {
-  const { theme } = useTheme()
+import { LeftSide } from '../components/homepage/left-side/left_side'
+import { Middle } from '../components/homepage/middle/middle'
+import { RightSide } from '../components/homepage/right-side/right-side'
 
+export function Home() {
   return (
     <main
       style={{
-        backgroundColor:
-          theme === 'light' ? 'rgba(255, 255, 255, 1)' : 'rgba(10, 10, 10, 1)',
-        color: theme === 'light' ? 'black' : 'white'
+        backgroundColor: 'rgba(10, 10, 10, 1)',
+        color: 'white'
       }}
-      className="flex min-h-screen w-full flex-col items-center justify-center gap-12 py-24 transition-all duration-700 md:py-0"
+      className="flex min-h-screen w-full flex-col items-center justify-center gap-12 py-24 md:py-0"
     >
-      <h1
-        className={`text-center font-mont text-2xl font-bold transition-all duration-1000 sm:text-4xl`}
-      >
-        the simple clean
-        <br />
-        <br />
-        シンプルでクリーンな
-      </h1>
+      <div className="grid h-screen w-full grid-cols-11">
+        <LeftSide></LeftSide>
+        <Middle></Middle>
+        <RightSide></RightSide>
+      </div>
     </main>
   )
 }
