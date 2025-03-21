@@ -15,7 +15,7 @@ export function SocialIcons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaGithub className="size-14 rounded-lg text-white transition-all duration-100 ease-in-out hover:rounded-full hover:border-2 hover:bg-white hover:text-purple-900"></FaGithub>
+        <FaGithub className="size-14 rounded-full rounded-lg text-white transition-all duration-100 ease-in-out hover:border-2 hover:bg-white hover:text-purple-900"></FaGithub>
       </a>
     </div>
   )
