@@ -19,7 +19,7 @@ export function RoundedRetangle() {
             <h1 className="text-purple-900">Teste</h1>
           </div>
           <div>
-            <p className="mr-9 w-60 pt-4 text-sm">
+            <p className="ml-2 mr-9 w-60 pt-4 text-justify text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -36,7 +36,7 @@ export function RoundedRetangle() {
           </div>
         </div>
         <div>
-        <div className="mb-12">
+          <div className="mb-12">
             <h1 className="text-purple-900">Teste</h1>
             <Loading tamanho={7}></Loading>
           </div>

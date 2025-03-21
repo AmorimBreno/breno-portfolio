@@ -3,7 +3,7 @@ export function Loading(props: { tamanho: number }) {
     <div className="relative mb-3 mt-3">
       <div
         className={
-          'absolute h-2 w-48 rounded-lg border-2 border-purple-400 bg-purple-400'
+          'absolute h-2 w-48 rounded-lg border-2 border-purple-100 bg-purple-100'
         }
       ></div>
       <div
