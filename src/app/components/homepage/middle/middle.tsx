@@ -22,9 +22,9 @@ export function Middle() {
 
             <h1 className="text-purple-900">Seja bem vindo!</h1>
           </div>
-          <p className="ml-2 w-60 pt-4 text-justify text-sm">
-            Bem-vindo! Aqui compartilho minha trajetória no estudo da engenharia de
-            computação, minhas experiências de trabalho e minha atuação em
+          <p className="ml-2 w-60 pt-4 text-justify text-xs">
+            Bem-vindo! Aqui compartilho minha trajetória no estudo da engenharia
+            de computação, minhas experiências de trabalho e minha atuação em
             grupos estudantis.
           </p>
         </div>
@@ -46,7 +46,7 @@ export function Middle() {
 
             <h1 className="text-purple-900">Quem sou eu?</h1>
           </div>
-          <p className="w-90 ml-2 pb-8 pr-6 pt-4 text-justify text-sm">
+          <p className="w-90 ml-2 pb-8 pr-6 pt-4 text-justify text-xs mb-8">
             Sou estudante de Engenharia de Computação no Instituto Mauá de
             Tecnologia. Tenho paixão por transformar ideias em realidade por
             meio da tecnologia e da programação. Com um perfil colaborativo e
@@ -58,21 +58,17 @@ export function Middle() {
       <RoundedRetangle></RoundedRetangle>
       <Experience
         title="Dev. Community Mauá"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-            ipsum dolor sit amet"
+        text="A Dev. Community Mauá, fundada em 2021, é um grupo acadêmico do Instituto Mauá de Tecnologia e tem por objetivo o desenvolvimento e criação de soluções computacionais. Voltada aos alunos que gostam de desafios e buscando sempre trazer um contato mais eficaz com as áreas de computação, com foco em incorporar, principalmente, o trabalho em equipe e as práticas do mercado com o mundo da tecnologia e inovação."
         year_start="2021"
         year_end="2024"
         competence1="Flutter"
         competence2="Dart"
         competence3="React"
-        competence4="Clean Architecture"
+        competence4="Metodologias Ágeis"
       ></Experience>
       <Experience
         title="Vivo (Telefônica Brasil)"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-            ipsum dolor sit amet incididunt ut labore et dolore magna aliquaincididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        text="A Vivo faz parte de uma das maiores companhias de telecomunicações no mundo, com presença em 12 países da Europa e da América Latina. Lá estagío na área de Tecnologia da Informação, com foco no contexto de faturamento de sustentanção dos serviços de billing. Aqui, as regras de negócio fazem parte do dia a dia e a habilidade de resolver problemas é colocada ao teste a todo momento."
         year_start="2024"
         year_end="Atual"
         competence1="SQL"

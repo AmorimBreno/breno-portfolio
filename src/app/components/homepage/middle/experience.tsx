@@ -11,18 +11,18 @@ export function Experience(props: {
   competence4: string
 }) {
   return (
-    <div className="ml-6 mr-6 mt-8 text-justify">
+    <div className="ml-6 mr-6 mt-12 text-justify">
       <div className="flex flex-row justify-between gap-2 pt-1">
         <div className="flex flex-row gap-2 pt-1">
           <FaSuitcase className="size-5 text-purple-900 mt-[2.5px]"></FaSuitcase>
-          <h1 className="text-purple-900">{props.title}</h1>
+          <h1 className="text-purple-900 text-md">{props.title}</h1>
         </div>
 
         <h1 className="text-purple-900">
           {props.year_start}/{props.year_end}
         </h1>
       </div>
-      <p className="mb-2 w-full pt-4 text-sm">{props.text}</p>
+      <p className="mb-2 w-full pt-4 text-xs  ">{props.text}</p>
       <div className="flex flex-row gap-2">
         <Competence competence={props.competence1}></Competence>
         <Competence competence={props.competence2}></Competence>
