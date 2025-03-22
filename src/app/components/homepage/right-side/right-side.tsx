@@ -1,5 +1,5 @@
 import { BigQuote } from '../left-side/big_quote'
-import { SocialIcons } from '../middle/social_icons'
+import { SocialIcons } from './social_icons'
 
 export function RightSide() {
   return (
@@ -14,7 +14,7 @@ export function RightSide() {
       <h1 className="mt-2 text-sm text-white"> ◈ Esportes</h1>
       <h1 className="mt-2 text-sm text-white"> ◈ Tecnologia</h1>
       <div className="mb-11 mt-11 h-[0.5px] w-full rounded-full bg-slate-300"></div>
-      <div className="flex h-80 w-full items-end justify-center">
+      <div className="flex h-72 w-full items-end justify-center">
         <SocialIcons></SocialIcons>
       </div>
     </div>

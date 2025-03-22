@@ -14,7 +14,7 @@ export function Experience(props: {
     <div className="ml-6 mr-6 mt-8 text-justify">
       <div className="flex flex-row justify-between gap-2 pt-1">
         <div className="flex flex-row gap-2 pt-1">
-          <FaSuitcase className="size-5 text-purple-900"></FaSuitcase>
+          <FaSuitcase className="size-5 text-purple-900 mt-[2.5px]"></FaSuitcase>
           <h1 className="text-purple-900">{props.title}</h1>
         </div>
 

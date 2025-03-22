@@ -20,11 +20,12 @@ export function Middle() {
               />
             </svg>
 
-            <h1 className="text-purple-900">Teste</h1>
+            <h1 className="text-purple-900">Seja bem vindo!</h1>
           </div>
           <p className="ml-2 w-60 pt-4 text-justify text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Bem-vindo! Aqui compartilho minha trajetória no estudo da engenharia de
+            computação, minhas experiências de trabalho e minha atuação em
+            grupos estudantis.
           </p>
         </div>
         <div>
@@ -43,15 +44,14 @@ export function Middle() {
               />
             </svg>
 
-            <h1 className="text-purple-900">Teste</h1>
+            <h1 className="text-purple-900">Quem sou eu?</h1>
           </div>
           <p className="w-90 ml-2 pb-8 pr-6 pt-4 text-justify text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            Sou estudante de Engenharia de Computação no Instituto Mauá de
+            Tecnologia. Tenho paixão por transformar ideias em realidade por
+            meio da tecnologia e da programação. Com um perfil colaborativo e
+            uma comunicação eficaz, gosto de trabalhar em equipe para enfrentar
+            desafios complexos e criar soluções inovadoras.
           </p>
         </div>
       </div>

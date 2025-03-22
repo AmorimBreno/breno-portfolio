@@ -25,23 +25,27 @@ export function RoundedRetangle() {
             </p>
           </div>
         </div>
-        <div className="mr-44">
-          <div className="mb-12">
-            <h1 className="text-purple-900">Teste</h1>
-            <Loading tamanho={10}></Loading>
+        <div className="mt-4">
+          <div className="mb-12 mr-20">
+            <h1 className="w-34 text-sm text-purple-900">Trabalho em Equipe</h1>
+            <Loading tamanho={9}></Loading>
           </div>
           <div>
-            <h1 className="text-purple-900">Teste</h1>
-            <Loading tamanho={3}></Loading>
+            <h1 className="w-34 text-sm text-purple-900">
+              Lógica de Programação
+            </h1>
+            <Loading tamanho={7}></Loading>
           </div>
         </div>
-        <div>
+        <div className="mt-4">
           <div className="mb-12">
-            <h1 className="text-purple-900">Teste</h1>
+            <h1 className="w-34 text-sm text-purple-900">
+              Resolução de Problemas
+            </h1>
             <Loading tamanho={7}></Loading>
           </div>
           <div>
-            <h1 className="text-purple-900">Teste</h1>
+            <h1 className="w-34 text-sm text-purple-900">Adaptabilidade</h1>
             <Loading tamanho={9}></Loading>
           </div>
         </div>

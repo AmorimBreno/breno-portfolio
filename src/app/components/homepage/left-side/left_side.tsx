@@ -1,4 +1,3 @@
-import imageMan from '../../../../../public/imageMan.jpg'
 import imageMe from '../../../../imageMinha.jpg'
 
 export function LeftSide() {
